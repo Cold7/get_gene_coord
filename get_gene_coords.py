@@ -25,4 +25,4 @@ for line in f:
 	aux = line[:-1].split("\t")
 	if aux[2] == "gene":
 		geneID = line.split("gene_id \"")[1].split("\"")[0]
-		print(geneID+"\t"+aux[0]+"\t"+aux[3]+"\t"+aux[4])
+		print(geneID+"\t"+aux[0]+"\t"+aux[3]+"\t"+aux[4]+"\t"+aux[6])
