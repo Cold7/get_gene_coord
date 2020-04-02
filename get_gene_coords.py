@@ -20,7 +20,7 @@
 #	print(data[gene]["chr"]+"\t"+data[gene]["gene"]+"\t"+data[gene]["init"]+"\t"+data[gene]["end"])
 
 
-f = open("ENCFF159KBI.gtf","r")
+f = open("ENCFF824ZKD.gtf","r")
 for line in f:
 	aux = line[:-1].split("\t")
 	if aux[2] == "gene":
